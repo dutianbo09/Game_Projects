@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VCProjectVC6 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP538F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../../Header" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/VCProjectVC6.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\lenovo\Desktop\小学期最终稿\TankWar\TankWar2\SourceCode\Src\LessonX.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP538F.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP5390.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Winmm.lib ../../Src/CommonClass_VC6.lib /nologo /subsystem:windows /incremental:no /pdb:"Debug/Game.pdb" /debug /machine:I386 /nodefaultlib:"LIBC.lib" /out:"..\..\..\Bin\Game.exe" /pdbtype:sept 
+".\Debug\Bullet.obj"
+".\Debug\BulletY.obj"
+".\Debug\LessonX.obj"
+".\Debug\LessonY.obj"
+".\Debug\Main.obj"
+".\Debug\TankEnemy.obj"
+".\Debug\TankEnemyY.obj"
+".\Debug\TankPlayer.obj"
+".\Debug\TankPlayerY.obj"
+".\Debug\Weapon.obj"
+".\Debug\WeaponY.obj"
+".\Debug\VCTemplate.res"
+]
+Creating command line "link.exe @C:\Users\lenovo\AppData\Local\Temp\RSP5390.tmp"
+<h3>Output Window</h3>
+Compiling...
+LessonX.cpp
+c:\users\lenovo\desktop\小学期最终稿\tankwar\tankwar2\sourcecode\src\lessonx.cpp(370) : warning C4305: 'argument' : truncation from 'const double' to 'const float'
+c:\users\lenovo\desktop\小学期最终稿\tankwar\tankwar2\sourcecode\src\lessonx.cpp(370) : warning C4305: 'argument' : truncation from 'const double' to 'const float'
+c:\users\lenovo\desktop\小学期最终稿\tankwar\tankwar2\sourcecode\src\lessonx.cpp(420) : warning C4715: 'CGameMainX::FindWeaponByName' : not all control paths return a value
+Linking...
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP5B8D.tmp" with contents
+[
+/nologo /o"Debug/VCProjectVC6.bsc" 
+".\Debug\Bullet.sbr"
+".\Debug\BulletY.sbr"
+".\Debug\LessonX.sbr"
+".\Debug\LessonY.sbr"
+".\Debug\Main.sbr"
+".\Debug\TankEnemy.sbr"
+".\Debug\TankEnemyY.sbr"
+".\Debug\TankPlayer.sbr"
+".\Debug\TankPlayerY.sbr"
+".\Debug\Weapon.sbr"
+".\Debug\WeaponY.sbr"]
+Creating command line "bscmake.exe @C:\Users\lenovo\AppData\Local\Temp\RSP5B8D.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Game.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
